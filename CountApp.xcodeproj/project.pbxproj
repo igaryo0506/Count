@@ -14,6 +14,8 @@
 		DD7B84922861ED140017B995 /* CountAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84912861ED140017B995 /* CountAppTests.swift */; };
 		DD7B849C2861ED140017B995 /* CountAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B849B2861ED140017B995 /* CountAppUITests.swift */; };
 		DD7B849E2861ED140017B995 /* CountAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B849D2861ED140017B995 /* CountAppUITestsLaunchTests.swift */; };
+		DD7B84AB2861F2B20017B995 /* CountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84AA2861F2B20017B995 /* CountPage.swift */; };
+		DD7B84AD2861F3530017B995 /* ShopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84AC2861F3530017B995 /* ShopPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		DD7B84972861ED140017B995 /* CountAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7B849B2861ED140017B995 /* CountAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAppUITests.swift; sourceTree = "<group>"; };
 		DD7B849D2861ED140017B995 /* CountAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD7B84AA2861F2B20017B995 /* CountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPage.swift; sourceTree = "<group>"; };
+		DD7B84AC2861F3530017B995 /* ShopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				DD7B84822861ED130017B995 /* ContentView.swift */,
 				DD7B84842861ED140017B995 /* Assets.xcassets */,
 				DD7B84862861ED140017B995 /* Preview Content */,
+				DD7B84AA2861F2B20017B995 /* CountPage.swift */,
+				DD7B84AC2861F3530017B995 /* ShopPage.swift */,
 			);
 			path = CountApp;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7B84AD2861F3530017B995 /* ShopPage.swift in Sources */,
+				DD7B84AB2861F2B20017B995 /* CountPage.swift in Sources */,
 				DD7B84832861ED130017B995 /* ContentView.swift in Sources */,
 				DD7B84812861ED130017B995 /* CountAppApp.swift in Sources */,
 			);
