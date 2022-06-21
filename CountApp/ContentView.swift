@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var number = 0
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text(String(number))
+            
+            Button("+"){
+                number += 1
+            }
+            .padding(16)
+        }
     }
 }
 
