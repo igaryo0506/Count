@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD7B84812861ED130017B995 /* CountAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84802861ED130017B995 /* CountAppApp.swift */; };
+		DD7B84812861ED130017B995 /* CountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84802861ED130017B995 /* CountApp.swift */; };
 		DD7B84832861ED130017B995 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84822861ED130017B995 /* ContentView.swift */; };
 		DD7B84852861ED140017B995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7B84842861ED140017B995 /* Assets.xcassets */; };
 		DD7B84882861ED140017B995 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7B84872861ED140017B995 /* Preview Assets.xcassets */; };
-		DD7B84922861ED140017B995 /* CountAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84912861ED140017B995 /* CountAppTests.swift */; };
-		DD7B849C2861ED140017B995 /* CountAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B849B2861ED140017B995 /* CountAppUITests.swift */; };
-		DD7B849E2861ED140017B995 /* CountAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B849D2861ED140017B995 /* CountAppUITestsLaunchTests.swift */; };
+		DD7B84922861ED140017B995 /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84912861ED140017B995 /* CountTests.swift */; };
+		DD7B849C2861ED140017B995 /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B849B2861ED140017B995 /* CountUITests.swift */; };
+		DD7B849E2861ED140017B995 /* CountUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B849D2861ED140017B995 /* CountUITestsLaunchTests.swift */; };
 		DD7B84AB2861F2B20017B995 /* CountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84AA2861F2B20017B995 /* CountPage.swift */; };
 		DD7B84AD2861F3530017B995 /* ShopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B84AC2861F3530017B995 /* ShopPage.swift */; };
 /* End PBXBuildFile section */
@@ -36,16 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD7B847D2861ED130017B995 /* CountApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD7B84802861ED130017B995 /* CountAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAppApp.swift; sourceTree = "<group>"; };
+		DD7B847D2861ED130017B995 /* Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Count.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7B84802861ED130017B995 /* CountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountApp.swift; sourceTree = "<group>"; };
 		DD7B84822861ED130017B995 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD7B84842861ED140017B995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7B84872861ED140017B995 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DD7B848D2861ED140017B995 /* CountAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD7B84912861ED140017B995 /* CountAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAppTests.swift; sourceTree = "<group>"; };
-		DD7B84972861ED140017B995 /* CountAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD7B849B2861ED140017B995 /* CountAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAppUITests.swift; sourceTree = "<group>"; };
-		DD7B849D2861ED140017B995 /* CountAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD7B848D2861ED140017B995 /* CountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7B84912861ED140017B995 /* CountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTests.swift; sourceTree = "<group>"; };
+		DD7B84972861ED140017B995 /* CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7B849B2861ED140017B995 /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
+		DD7B849D2861ED140017B995 /* CountUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DD7B84AA2861F2B20017B995 /* CountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPage.swift; sourceTree = "<group>"; };
 		DD7B84AC2861F3530017B995 /* ShopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,9 +78,9 @@
 		DD7B84742861ED130017B995 = {
 			isa = PBXGroup;
 			children = (
-				DD7B847F2861ED130017B995 /* CountApp */,
-				DD7B84902861ED140017B995 /* CountAppTests */,
-				DD7B849A2861ED140017B995 /* CountAppUITests */,
+				DD7B847F2861ED130017B995 /* Count */,
+				DD7B84902861ED140017B995 /* CountTests */,
+				DD7B849A2861ED140017B995 /* CountUITests */,
 				DD7B847E2861ED130017B995 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,24 +88,24 @@
 		DD7B847E2861ED130017B995 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD7B847D2861ED130017B995 /* CountApp.app */,
-				DD7B848D2861ED140017B995 /* CountAppTests.xctest */,
-				DD7B84972861ED140017B995 /* CountAppUITests.xctest */,
+				DD7B847D2861ED130017B995 /* Count.app */,
+				DD7B848D2861ED140017B995 /* CountTests.xctest */,
+				DD7B84972861ED140017B995 /* CountUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD7B847F2861ED130017B995 /* CountApp */ = {
+		DD7B847F2861ED130017B995 /* Count */ = {
 			isa = PBXGroup;
 			children = (
-				DD7B84802861ED130017B995 /* CountAppApp.swift */,
+				DD7B84802861ED130017B995 /* CountApp.swift */,
 				DD7B84822861ED130017B995 /* ContentView.swift */,
 				DD7B84842861ED140017B995 /* Assets.xcassets */,
 				DD7B84862861ED140017B995 /* Preview Content */,
 				DD7B84AA2861F2B20017B995 /* CountPage.swift */,
 				DD7B84AC2861F3530017B995 /* ShopPage.swift */,
 			);
-			path = CountApp;
+			path = Count;
 			sourceTree = "<group>";
 		};
 		DD7B84862861ED140017B995 /* Preview Content */ = {
@@ -116,29 +116,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DD7B84902861ED140017B995 /* CountAppTests */ = {
+		DD7B84902861ED140017B995 /* CountTests */ = {
 			isa = PBXGroup;
 			children = (
-				DD7B84912861ED140017B995 /* CountAppTests.swift */,
+				DD7B84912861ED140017B995 /* CountTests.swift */,
 			);
-			path = CountAppTests;
+			path = CountTests;
 			sourceTree = "<group>";
 		};
-		DD7B849A2861ED140017B995 /* CountAppUITests */ = {
+		DD7B849A2861ED140017B995 /* CountUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DD7B849B2861ED140017B995 /* CountAppUITests.swift */,
-				DD7B849D2861ED140017B995 /* CountAppUITestsLaunchTests.swift */,
+				DD7B849B2861ED140017B995 /* CountUITests.swift */,
+				DD7B849D2861ED140017B995 /* CountUITestsLaunchTests.swift */,
 			);
-			path = CountAppUITests;
+			path = CountUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD7B847C2861ED130017B995 /* CountApp */ = {
+		DD7B847C2861ED130017B995 /* Count */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD7B84A12861ED140017B995 /* Build configuration list for PBXNativeTarget "CountApp" */;
+			buildConfigurationList = DD7B84A12861ED140017B995 /* Build configuration list for PBXNativeTarget "Count" */;
 			buildPhases = (
 				DD7B84792861ED130017B995 /* Sources */,
 				DD7B847A2861ED130017B995 /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = CountApp;
+			name = Count;
 			productName = CountApp;
-			productReference = DD7B847D2861ED130017B995 /* CountApp.app */;
+			productReference = DD7B847D2861ED130017B995 /* Count.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD7B848C2861ED140017B995 /* CountAppTests */ = {
+		DD7B848C2861ED140017B995 /* CountTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD7B84A42861ED140017B995 /* Build configuration list for PBXNativeTarget "CountAppTests" */;
+			buildConfigurationList = DD7B84A42861ED140017B995 /* Build configuration list for PBXNativeTarget "CountTests" */;
 			buildPhases = (
 				DD7B84892861ED140017B995 /* Sources */,
 				DD7B848A2861ED140017B995 /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				DD7B848F2861ED140017B995 /* PBXTargetDependency */,
 			);
-			name = CountAppTests;
+			name = CountTests;
 			productName = CountAppTests;
-			productReference = DD7B848D2861ED140017B995 /* CountAppTests.xctest */;
+			productReference = DD7B848D2861ED140017B995 /* CountTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD7B84962861ED140017B995 /* CountAppUITests */ = {
+		DD7B84962861ED140017B995 /* CountUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD7B84A72861ED140017B995 /* Build configuration list for PBXNativeTarget "CountAppUITests" */;
+			buildConfigurationList = DD7B84A72861ED140017B995 /* Build configuration list for PBXNativeTarget "CountUITests" */;
 			buildPhases = (
 				DD7B84932861ED140017B995 /* Sources */,
 				DD7B84942861ED140017B995 /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				DD7B84992861ED140017B995 /* PBXTargetDependency */,
 			);
-			name = CountAppUITests;
+			name = CountUITests;
 			productName = CountAppUITests;
-			productReference = DD7B84972861ED140017B995 /* CountAppUITests.xctest */;
+			productReference = DD7B84972861ED140017B995 /* CountUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD7B84782861ED130017B995 /* Build configuration list for PBXProject "CountApp" */;
+			buildConfigurationList = DD7B84782861ED130017B995 /* Build configuration list for PBXProject "Count" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD7B847C2861ED130017B995 /* CountApp */,
-				DD7B848C2861ED140017B995 /* CountAppTests */,
-				DD7B84962861ED140017B995 /* CountAppUITests */,
+				DD7B847C2861ED130017B995 /* Count */,
+				DD7B848C2861ED140017B995 /* CountTests */,
+				DD7B84962861ED140017B995 /* CountUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 				DD7B84AD2861F3530017B995 /* ShopPage.swift in Sources */,
 				DD7B84AB2861F2B20017B995 /* CountPage.swift in Sources */,
 				DD7B84832861ED130017B995 /* ContentView.swift in Sources */,
-				DD7B84812861ED130017B995 /* CountAppApp.swift in Sources */,
+				DD7B84812861ED130017B995 /* CountApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD7B84922861ED140017B995 /* CountAppTests.swift in Sources */,
+				DD7B84922861ED140017B995 /* CountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD7B849E2861ED140017B995 /* CountAppUITestsLaunchTests.swift in Sources */,
-				DD7B849C2861ED140017B995 /* CountAppUITests.swift in Sources */,
+				DD7B849E2861ED140017B995 /* CountUITestsLaunchTests.swift in Sources */,
+				DD7B849C2861ED140017B995 /* CountUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		DD7B848F2861ED140017B995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD7B847C2861ED130017B995 /* CountApp */;
+			target = DD7B847C2861ED130017B995 /* Count */;
 			targetProxy = DD7B848E2861ED140017B995 /* PBXContainerItemProxy */;
 		};
 		DD7B84992861ED140017B995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD7B847C2861ED130017B995 /* CountApp */;
+			target = DD7B847C2861ED130017B995 /* Count */;
 			targetProxy = DD7B84982861ED140017B995 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,7 +439,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = igarashi.igaryo.CountApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Count;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,7 +468,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = igarashi.igaryo.CountApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Count;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,7 +491,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountApp.app/CountApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Count.app/Count";
 			};
 			name = Debug;
 		};
@@ -511,7 +511,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountApp.app/CountApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Count.app/Count";
 			};
 			name = Release;
 		};
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD7B84782861ED130017B995 /* Build configuration list for PBXProject "CountApp" */ = {
+		DD7B84782861ED130017B995 /* Build configuration list for PBXProject "Count" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7B849F2861ED140017B995 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD7B84A12861ED140017B995 /* Build configuration list for PBXNativeTarget "CountApp" */ = {
+		DD7B84A12861ED140017B995 /* Build configuration list for PBXNativeTarget "Count" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7B84A22861ED140017B995 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD7B84A42861ED140017B995 /* Build configuration list for PBXNativeTarget "CountAppTests" */ = {
+		DD7B84A42861ED140017B995 /* Build configuration list for PBXNativeTarget "CountTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7B84A52861ED140017B995 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD7B84A72861ED140017B995 /* Build configuration list for PBXNativeTarget "CountAppUITests" */ = {
+		DD7B84A72861ED140017B995 /* Build configuration list for PBXNativeTarget "CountUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7B84A82861ED140017B995 /* Debug */,
